@@ -1,0 +1,11 @@
+
+.galler {
+    .galleryNav{display: flex; justify-content: space-between; margin-top: 30px;
+        li { cursor: pointer;
+            img {
+                width: 115px;
+            }
+            &.on { border: 2px solid #fff; }
+        }
+    }
+}

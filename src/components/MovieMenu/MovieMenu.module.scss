@@ -1,0 +1,13 @@
+.MovieMenu {
+    display: flex;
+    color: rgb(255 255 255 / 18%);
+    border-bottom: 1px solid #5d6967;
+    margin-bottom: 20px;
+    div {
+        margin-right: 20px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        font-size: 22px;
+        &.on{color:#ffffff; font-weight: 600; }
+    }  
+}

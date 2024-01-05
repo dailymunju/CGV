@@ -1,0 +1,16 @@
+.infoTab{
+    color: #898787; display: flex; margin-bottom: 20px; justify-content: end; 
+    li {
+        margin-right: 20px;
+        cursor: pointer;
+        font-size: 22px;
+        border: 1.5px solid #898787;
+        width: 90px;
+        line-height: 37px;
+        text-align: center;
+        height: 40px; border-radius: 10px;
+        &.on { color: #fff; border-color: #fff; }
+        &:last-child { margin-right: 0; }
+    }
+}
+   

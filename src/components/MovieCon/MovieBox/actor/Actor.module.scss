@@ -1,0 +1,15 @@
+.Actor {     margin: 0 50px;
+    .ActorInfo { display: flex; margin-bottom: 30px; border-bottom: 1px solid #2a2a2a;
+        margin-bottom: 40px; padding-bottom: 40px;
+        &:last-child { border-bottom: none; }
+        .txtWrap { color: #fff;  margin-left: 30px;
+            h3 { font-size: 22px;margin-bottom: 15px;
+                font-weight: 600; 
+            }
+            p {    color: #ffffffb3;
+                font-size: 17px;
+            }
+            .desc { margin-top: 10px; }
+        }
+    }
+}

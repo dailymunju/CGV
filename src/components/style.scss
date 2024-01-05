@@ -1,0 +1,65 @@
+body { background-color: #000;
+    .wrap { width: 100%; min-width: 1600px; 
+        #header { width: 100%; 
+            #header .inner { height: 150px; }
+            h1 { position: absolute; left: 0; top: 25px; z-index: 10;
+                img {width: 100%; height: 53px;}
+            }
+            .top-menu { position: absolute; right: 0; top: 50px; display: flex; z-index: 10;
+                li {margin-right:30px;text-align: center; transition: .4s;
+                    &:hover {
+                        a { color: #ff0000; transition: .4s;}
+                    }
+                    a { font-size: 22px; color: #ffffff; font-weight: 600; }
+                } 
+            }
+        }
+    }
+    .inner { width: 1400px; margin: auto; position: relative; box-sizing: border-box; }
+    .container {     position: relative;
+        .content {
+            .con-box {
+                .intro { background-image: url(./images/bg_img01.jpg); background-size: cover; background-position: 0 0; width: 100%; height: 590px; background-repeat: no-repeat; }
+            }
+            .movieList { position: absolute; left: 50%;transform: translate(-50%,-50%);
+                h2 { font-size: 38px; color: #ffffff; font-weight: 600; margin-bottom: 20px; }
+                ul { display: flex;justify-content: space-between;
+                    li { position: relative;width: 200px; box-sizing: border-box; border-radius: 10px; cursor: pointer;
+                        &.on { border: 3px solid #ed3124; }
+                        span.grade {  font-size: 14px;
+                            position: absolute;
+                            left: 0px;
+                            top: 0;
+                            padding-bottom: 3px;
+                            line-height: 30px;
+                            text-align: center;
+                            width: 33px;
+                            display: inline-block;
+                            font-weight: 800;
+                            color: #fff;
+                            border-radius: 6px;
+                            box-shadow: rgba(0, 0, 0, 0.3) 3px 3px 3px;
+                            background: #e50914;
+                            z-index: 10;}
+                        img { width: 100%;height: 100%;border-radius: 6px; }
+                    }
+                }
+            }
+            .movieInfo { margin-top: 260px; background-color: #ffffff; padding: 100px 0;
+                .inner { display: flex; justify-content: space-between;
+                    .infoBox { color: #000; width: 65%; position: relative;
+                        h2 { font-size: 43px; margin-bottom: 30px; font-weight: 500;
+                            span { background-color: #e50914; color: #ffffff; display: inline-block; width: 60px; font-size: 16px; text-align: center; padding: 5px; margin-left: 10px; border-radius: 18px; top: 21px; position: absolute; }
+                        }
+                        ul { display: flex; justify-content: space-between; margin-bottom: 30px;flex-wrap: wrap;
+                            li { width: 50%; font-size: 20px; margin-bottom: 10px; }
+                        }
+                        p { font-size: 18px; line-height: 32px; }
+                    }
+                }
+            }
+        }
+            
+    }
+}
+

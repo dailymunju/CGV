@@ -1,0 +1,24 @@
+.container {     position: relative;
+    .content { position: relative;
+        .conBox {
+            .intro {
+               img {  width: 100%; }
+            }
+        }
+        .movieInfo { margin-top: 260px; background-color: #ffffff; padding: 100px 0;
+            .inner { display: flex; justify-content: space-between; width: 1400px; margin: auto;
+                .infoBox { color: #000; width: 65%; position: relative;
+                    h2 { font-size: 43px; margin-bottom: 30px; font-weight: 500;
+                        span { background-color: #e50914; color: #ffffff; display: inline-block; width: 60px; font-size: 16px; text-align: center; padding: 5px; margin-left: 10px; border-radius: 18px; top: 21px; position: absolute; }
+                    }
+                    ul { display: flex; justify-content: space-between; margin-bottom: 30px;flex-wrap: wrap;
+                        li { width: 50%; font-size: 20px; margin-bottom: 10px; }
+                    }
+                    p { font-size: 18px; line-height: 32px; }
+                }
+            }
+        }
+        
+    }
+        
+}
